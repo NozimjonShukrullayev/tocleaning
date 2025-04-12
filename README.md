@@ -1,13 +1,39 @@
-# React + Vite
+# 🧽 Cleaning Service Website - Tocleaning
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive cleaning service website built with **React**, featuring multi-language support (Uzbek & Russian), animated sections, and a clean user experience. This site is designed to showcase professional cleaning services and allow users to explore and get in touch easily.
 
-Currently, two official plugins are available:
+## Author
+- Nozimjon Shukrullayev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+🔗 [View Live Site](https://www.tocleaning.uz/)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# tocleaning
+## 🚀 Technologies Used
+
+- ⚛️ **React** – Frontend framework for building UI
+- 🎨 **CSS** – Custom styling
+- 🌐 **i18next** – Multi-language support (UZ / RU)
+- 🌊 **AOS** – Animation on scroll
+- 🍪 **js-cookie** – Language preference storage
+- 🌐 **Axios** – HTTP requests
+- 📦 **React Scripts** – App setup and build
+
+## 🖼️ Main Pages
+
+- **Home** – Overview, featured services, contact section
+- **About Us** – Company background and mission
+- **Services** – Detailed cleaning services offered
+- **FAQ** – For frequently asked questions
+- **Contact** – Contact form, name and phone number
+- **Language Switch** – Uzbek / Russian toggle
+
+## 🌍 Multilingual Support
+
+The app supports two languages using `i18next` and `react-i18next`. Users can switch between Uzbek and Russian. Selected language is stored in cookies for future visits.
+
+🗂 Translation files:
+- `public/locales/uz/translation.json`
+- `public/locales/ru/translation.json`
+
+## 📦 Installation & Development
