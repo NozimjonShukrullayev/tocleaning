@@ -35,5 +35,3 @@ The app supports two languages using `i18next` and `react-i18next`. Users can sw
 🗂 Translation files:
 - `public/locales/uz/translation.json`
 - `public/locales/ru/translation.json`
-
-## 📦 Installation & Development
